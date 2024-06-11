@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Requests</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.bootstrap5.css">
+    <link rel="stylesheet" href="table.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script defer src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <script defer src="https://cdn.datatables.net/2.0.8/js/dataTables.bootstrap5.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 class="text-white"><center>Personal Requests</center></h1>
+    <div class="container myTable">
+        <table id="example" class="table table-striped" style="width:100%">
+            <div class="TableContent">
+                <thead>
+                    <tr id="newTr">
+                        <th>Passcode</th>
+                        <th>NIC Number</th>
+                        <th style="text-align: right;">Reason for applying</th>
+                        <th style="text-align: right;">Issuing Certificate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12345</td>
+                        <td>20026602858</td>
+                        <td>To apply job</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>54321</td>
+                        <td>5551234567</td>
+                        <td>Submit application documents</td>
+                        <td><button type="button" class="btn btn-success" disabled>Issue</button></td>
+                    </tr>
+                      <tr>
+                        <td>69890</td>
+                        <td>6543210987</td>
+                        <td>Work anniversary celebration</td>
+                        <td><button type="button" class="btn btn-success" disabled>Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>70234</td>
+                        <td>1098765432</td>
+                        <td>Company retreat</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>12345</td>
+                        <td>20026602858</td>
+                        <td>To apply job</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>54321</td>
+                        <td>5551234567</td>
+                        <td>Submit application documents</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>69890</td>
+                        <td>6543210987</td>
+                        <td>Work anniversary celebration</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>70234</td>
+                        <td>1098765432</td>
+                        <td>Company retreat</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>12345</td>
+                        <td>20026602858</td>
+                        <td>To apply job</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>54321</td>
+                        <td>5551234567</td>
+                        <td>Submit application documents</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                      <tr>
+                        <td>69890</td>
+                        <td>6543210987</td>
+                        <td>Work anniversary celebration</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>70234</td>
+                        <td>1098765432</td>
+                        <td>Company retreat</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>12345</td>
+                        <td>20026602858</td>
+                        <td>To apply job</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>54321</td>
+                        <td>5551234567</td>
+                        <td>Submit application documents</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>69890</td>
+                        <td>6543210987</td>
+                        <td>Work anniversary celebration</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                    <tr>
+                        <td>70234</td>
+                        <td>1098765432</td>
+                        <td>Company retreat</td>
+                        <td><button type="button" class="btn btn-success">Issue</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Passcode</th>
+                        <th>NIC Number</th>
+                        <th style="text-align: right;">Reason</th>
+                        <th style="text-align: right;">Issuing Certificate</th>
+                    </tr>
+                </tfoot>
+            </div>
+        </table>
+        <button type="button" class="btn btn-primary myBtn" onclick="history.back()">Back</button>
+    </div>
+</body>
+</html>

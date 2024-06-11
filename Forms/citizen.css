@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right,#3193CA,#042233);
+    background-size: cover;
+}
+@media screen and (min-width: 768px) {
+    #CitizenForm {
+      width: 700px;
+    }
+  }
+h1{
+  font-family: Inria Sans;
+}
+#CitizenForm{
+  font-family: Inria Sans;
+  box-shadow: 10px 10px 10px;
+}

@@ -1,0 +1,30 @@
+table{
+    text-align: right;
+    border-radius: 20px;
+}
+.myTable{
+    margin-top: 5vh;
+    background-color: white;
+    color: white;
+    padding: 20px 20px;
+}
+@media screen and (min-width: 768px) {
+    .myTable {
+      width: 1300px;
+    }
+  }
+#newTr{
+    background-color: aqua;
+}
+body{
+    background-image: linear-gradient(to right,#2C598D ,#0C1827);
+}
+.btn{
+    background-color: rgb(51, 197, 51);
+}
+h1{
+    padding-top: 10px;
+}
+.myBtn{
+    background-color: rgb(59, 59, 216);
+}
